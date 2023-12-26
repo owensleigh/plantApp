@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2C326B2ACB65EE0063FCE6 /* onePlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C326A2ACB65EE0063FCE6 /* onePlantView.swift */; };
+		CABA3CE92ABF71DA0045DDFE /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA3CE82ABF71DA0045DDFE /* Plant.swift */; };
+		CABA3CEB2ABF75BF0045DDFE /* plantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA3CEA2ABF75BF0045DDFE /* plantRowView.swift */; };
+		CAC6A04A2B0548090053A2E3 /* newPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6A0492B0548090053A2E3 /* newPlantView.swift */; };
+		CAC6A04C2B054AA90053A2E3 /* PlantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6A04B2B054AA90053A2E3 /* PlantStore.swift */; };
+		CADE65942AE1CB7800309418 /* editPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE65932AE1CB7700309418 /* editPlantView.swift */; };
 		CAEC47A32AB3BC6B0071525B /* PlantGrowinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEC47A22AB3BC6B0071525B /* PlantGrowinatorApp.swift */; };
 		CAEC47A52AB3BC6B0071525B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEC47A42AB3BC6B0071525B /* ContentView.swift */; };
 		CAEC47A72AB3BC710071525B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEC47A62AB3BC710071525B /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA2C326A2ACB65EE0063FCE6 /* onePlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onePlantView.swift; sourceTree = "<group>"; };
+		CABA3CE82ABF71DA0045DDFE /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		CABA3CEA2ABF75BF0045DDFE /* plantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantRowView.swift; sourceTree = "<group>"; };
+		CAC6A0492B0548090053A2E3 /* newPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newPlantView.swift; sourceTree = "<group>"; };
+		CAC6A04B2B054AA90053A2E3 /* PlantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStore.swift; sourceTree = "<group>"; };
+		CADE65932AE1CB7700309418 /* editPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPlantView.swift; sourceTree = "<group>"; };
 		CAEC479F2AB3BC6B0071525B /* PlantGrowinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantGrowinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEC47A22AB3BC6B0071525B /* PlantGrowinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGrowinatorApp.swift; sourceTree = "<group>"; };
 		CAEC47A42AB3BC6B0071525B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 			children = (
 				CAEC47A22AB3BC6B0071525B /* PlantGrowinatorApp.swift */,
 				CAEC47A42AB3BC6B0071525B /* ContentView.swift */,
+				CAC6A0492B0548090053A2E3 /* newPlantView.swift */,
+				CA2C326A2ACB65EE0063FCE6 /* onePlantView.swift */,
+				CABA3CE82ABF71DA0045DDFE /* Plant.swift */,
+				CAC6A04B2B054AA90053A2E3 /* PlantStore.swift */,
+				CADE65932AE1CB7700309418 /* editPlantView.swift */,
+				CABA3CEA2ABF75BF0045DDFE /* plantRowView.swift */,
 				CAEC47A62AB3BC710071525B /* Assets.xcassets */,
 				CAEC47A82AB3BC710071525B /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABA3CEB2ABF75BF0045DDFE /* plantRowView.swift in Sources */,
+				CA2C326B2ACB65EE0063FCE6 /* onePlantView.swift in Sources */,
+				CAC6A04A2B0548090053A2E3 /* newPlantView.swift in Sources */,
 				CAEC47A52AB3BC6B0071525B /* ContentView.swift in Sources */,
 				CAEC47A32AB3BC6B0071525B /* PlantGrowinatorApp.swift in Sources */,
+				CADE65942AE1CB7800309418 /* editPlantView.swift in Sources */,
+				CABA3CE92ABF71DA0045DDFE /* Plant.swift in Sources */,
+				CAC6A04C2B054AA90053A2E3 /* PlantStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlantGrowinator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B2KGBNH6J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlantGrowinator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B2KGBNH6J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
